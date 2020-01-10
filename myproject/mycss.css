@@ -1,0 +1,35 @@
+ /*이 부분은 폰트를 지정하는 부분입니다.*/
+ body{font-family: 'Nanum Pen Script', cursive;}
+  .mytitle {
+    color: white;
+    text-align: center;
+    background-image: url('https://i.ytimg.com/vi/UEmyxQvJsQM/maxresdefault.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 250px;
+    border-radius: 300px;
+
+
+		/* display flex를 쓸 때엔 아래 네 줄이 항상 묶여 다닙니다. */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+	
+	/* 자식선택자: mytitle 바로 아래 있는 h1 태그 */
+  .mytitle > h1 {
+    margin: 20px 50px 5px 0;
+  }
+	
+	/* 자식선택자: mytitle 바로 아래 있는 h1 태그 */
+  .mytitle > h3 {
+    margin: 10px 0 10px 0px;
+  }
+
+  .wrap {
+    background-color: white;
+    width: 350px;
+    margin: 50px auto 0 auto;
+  }
