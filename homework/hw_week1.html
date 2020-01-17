@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>마카롱을 팝니다</title>
+
+<!-- 합쳐지고 최소화된 최신 CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- 부가적인 테마 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+
+
+
+	<style type="text/css">
+	    * {
+    font-family: 'Jua', sans-serif;
+    }
+	
+	 .form-post {
+      width: 35%;
+      padding: 2rem;
+      margin: 2rem auto;
+      border-color: #e9ecef;
+      border-radius: 1rem;
+      border: solid;
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+    .order{
+    	width:300px;
+    }
+
+    .option{
+    	width:235px;
+    	height: 50px;
+    }
+
+
+	.myButton {
+		box-shadow:inset 0px 0px 5px 0px #f7c5c0;
+		background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+		background-color:#fc8d83;
+		border-radius:17px;
+		border:1px solid #d83526;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:15px;
+		font-weight:bold;
+		padding:10px 21px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #b23e35;
+	}
+	.myButton:hover {
+		background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+		background-color:#e4685d;
+	}
+	.myButton:active {
+		position:relative;
+		top:1px;
+}
+
+
+
+
+
+	</style>
+
+</head>
+
+
+<body>
+
+    <div class="form-post" id="post-box">
+		<img src="https://scontent-lhr3-1.cdninstagram.com/vp/b1f999a1e6c0a92bd11f09fc6cde0c23/5E417E01/t51.2885-15/e35/73480756_543752469790574_8985869181569206137_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com&_nc_cat=102&se=7&ig_cache_key=MjE3NTE5NzMwMDg2NzMzMzg1MQ%3D%3D.2"/ width=350>
+
+		<div class="wrap">
+	     	 <h1 class="text1">귀여운 마카롱</h1>
+	     	 <h4 class="text1">가격: 2000원/개</h4><br/>
+	      <h5> 우울한 날에는 달콤한 마카롱을 드셔보세요! </h5>
+	      <hr class="my-4"><br/>
+	      <h2>주문하기</h2>
+    	</div>
+	
+
+	<div class="order">
+
+
+		<div class="input-group input-group-lg">
+		<span class="input-group-addon" id="sizing-addon1">성함</span>
+		<input type="text" class="form-control" placeholder="주문자 성함을 입력해주세요" aria-describedby="sizing-addon1">
+		</div>
+
+		<div class="input-group input-group-lg">
+		<span class="input-group-addon" id="sizing-addon1">옵션</span>
+		<select name="option" class="option">
+		    <option value="">--옵션을 선택하세요--</option>
+		    <option value="1개">for me (4개)</option>
+		    <option value="2개">for you (8개)</option>
+		    <option value="3개">for us (12개)</option>
+		</select><br/>
+		</div>
+
+		<div class="input-group input-group-lg">
+		<span class="input-group-addon" id="sizing-addon1">주소</span>
+		<input type="text" class="form-control" placeholder="빠르게 배송해드릴게요" aria-describedby="sizing-addon1">
+		</div>
+
+		<div class="input-group">
+		  <span class="input-group-addon" id="basic-addon1">Phone</span>
+		  <input type="text" class="form-control" placeholder="핸드폰 번호를 입력하세요" aria-describedby="basic-addon1">
+		</div>
+
+	<br/><br/>
+
+	<a href="#" class="myButton">Order!</a>
+
+
+</div>
+
+</div>
+</body>
+</html>
